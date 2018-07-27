@@ -12,11 +12,9 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli_array, name)
-  katz_deli_array << name
-  place_in_line = katz_deli_array.index(name)
-  puts "Welcome, #{name}. You are number #{katz_deli_array.index(name)+1} in line."
-  return name, place_in_line
+def take_a_number(katz_deli, customer)
+  katz_deli_array << customer
+  puts "Welcome #{customer}. You are number #{katz_deli.count} in line."
 end
 
 def now_serving(katz_deli_array)
