@@ -1,4 +1,5 @@
 # Write your code here.
+katz_deli = []
 def line(katz_deli)
   katz_deli_array = []
   if katz_deli.size == 0
